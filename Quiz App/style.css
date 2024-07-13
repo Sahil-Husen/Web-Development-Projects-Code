@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background-color: #3498db;
+    font-family: "Roboto Mono", monospace;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+
+}
+.box{
+    width: 60%;
+    height: 350px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(40, 51, 155, 0.699);
+     color: white;
+    
+}
+.row{
+    width: 100%;
+    margin: 2rem;
+    /* margin-left: 0px; */
+}
+.btn{
+    padding: 10px;
+    background-color: #3498db;
+    outline: none;
+     font-size: 20px;
+     color: white   ;
+     margin-left: 40%;
+      
+     border-radius: 10px;
+     
+}
+.end-quiz-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height to center vertically */
+    text-align: center; /* Center text */
+}
+
+.restart-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button appear inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.restart-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
